@@ -52,13 +52,14 @@ OTA firmware updates are available for Android using an older release of the mor
 
 1. Download the firmware release you wish to install from the [Meshtastic Download Page](/downloads) or [Meshtastic GitHub](https://github.com/meshtastic/firmware/releases).
 2. Unzip the firmware folder
-3. Open the nRF Connect App and select CONNECT on your device from the SCANNER tab
-4. If the top right corner of the interface that is shown says DISCONNECT, proceed to step 5, if it says CONNECT, select CONNECT
-5. Select the DFU icon from the top-right of the screen
-6. Select OK after verifying that "Distribution Packet (ZIP)" is selected
-7. Select the correct device firmware file (will end with -ota.zip)
-8. The update will start automatically (this will be slow)
-9. Once the update is complete, the device will reboot automatically
+3. If you have the meshtastic app running on the device you are running nRF connect on, make sure to select "None (disable)" on the meshtastic node selection list or the OTA flash process may fail.
+4. Open the nRF Connect App and select CONNECT on your device from the SCANNER tab
+5. If the top right corner of the interface that is shown says DISCONNECT, proceed to step 5, if it says CONNECT, select CONNECT
+6. Select the DFU icon from the top-right of the screen
+7. Select OK after verifying that "Distribution Packet (ZIP)" is selected
+8. Select the correct device firmware file (will end with -ota.zip)
+9. The update will start automatically (this will be slow)
+10. Once the update is complete, the device will reboot automatically
 
 </TabItem>
 
